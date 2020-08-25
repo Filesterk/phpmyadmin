@@ -1,4 +1,14 @@
 <?php
+// @todo: 1 Create and use mysql database alex_sandbox.
+//          Use Database administration software (sql workbench, phpmyadmin, heidi sql) to manage easier your db.
+//        1.1 Learn about sql 'CREATE TABLE' construction. Use it to create your 'messages' table
+// @todo: 2 Learn about php construction require() and include(). Try to organize your code between different files
+//          in project
+// @todo: 3 Use require() to plug db connection script
+// @todo: 4 Learn basic sql constructions 'SELECT * FROM', 'UPDATE'
+// @todo: 5 Save form data in database as new row in 'messages' table
+?>
+<?php
   require_once 'include/same-form-data.php';
   require_once 'include/db-connect.php';
 ?>
